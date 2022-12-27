@@ -1,0 +1,81 @@
+body {
+  background-color: #337ab7;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  min-width: 500px;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background-color: #333;
+  padding: 15px;
+ }
+
+
+#uno {
+  background-color: #be1f33;
+}
+#dos {
+  background-color: #9ed5dc;
+}
+ #tres {
+  background-color: #2f8791;
+}
+#cuatro {
+  background-color: #9ed5dc;
+} 
+
+
+body {
+  font-family: 'Cantarell', sans-serif, 'Oxygen', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+ 
+button {
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn{
+  background: darkgreen;
+}
+
+#delete-btn {
+    background: darkred;
+}
+
+#increment-btn:hover,
+#increment-btn:focus {
+  background: darkslateblue;
+}
+
+#save-btn:hover,
+#save-btn:focus  {
+  background: darkred;
+}
